@@ -1,0 +1,484 @@
+body { 
+    background-color: #332D2D;
+}
+
+.container-first{
+    font-family: 'PressStart2P';
+    color: #EA2616;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.left-side-fr {
+    width: 74.13vw;
+    height: 100%;
+}
+
+.mainstroke { 
+    border: 1.75vw solid #EA2616;
+    overflow: hidden;
+    height: 5.7vw;
+    
+}
+
+.babemainstroke {
+    display: flex;
+    white-space: nowrap;
+    animation: runstroke 2s ease infinite;
+    width: 200%;
+
+}
+
+h2 { 
+    font-size: 6.8vw;
+    text-transform:uppercase;
+    width: 90%;
+    font-family: 'PressStart2P';
+    color: #EA2616;
+    }
+
+
+
+.mainpic {
+    border: 1.75vw solid #EA2616;
+    border-top: none;
+    background-image:url(../images/main.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 47.1vw;
+    
+}
+
+span:hover {
+    color: #332D2D;
+    animation: none;
+    }
+
+span {
+    font-size: 25.5vw;
+    text-transform:uppercase;
+    letter-spacing: -1vw;
+    height: 100%;
+    animation-name: cringe;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.right-side-fr {
+    width: 25.87vw;
+    /* width: 24.7vw; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.discoballs {
+    border: 1.75vw solid #EA2616;
+    border-left: none;
+    height: 21.2vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.disco1 {
+    position: absolute;
+    top: 0.5vw;
+    left: 0.5vw;
+    width: 15.65vw;
+    height: 15.65vw;
+    animation: disco1 2s linear infinite;
+}
+
+.disco1:hover {
+animation: none;
+}
+
+.disco2 {
+    position: absolute;
+    top: 2.2vw;
+    left: 17vw;
+    width: 6.58vw;
+    height: 6.58vw;
+    animation: disco2 3s linear infinite;
+}
+
+.disco2:hover {
+    animation: none;
+    }
+
+.disco3 {
+    position: absolute;
+    top:16.2vw ;
+    left: 0.5vw;
+    width: 6.16vw;
+    height: 6.16vw;
+    animation: disco1 3.5s linear infinite;
+}
+
+.disco3:hover {
+    animation: none;
+    }
+
+.disco4 {
+    position: absolute;
+    top: 11.2vw;
+    left: 15vw;
+    width: 10.22vw;
+    height: 10.22vw;
+    animation: disco2 4s linear infinite;
+}
+.disco4:hover {
+animation: none;
+}
+
+.coctail {
+    border: 1.75vw solid #EA2616;
+    border-top: none;
+    border-left: none;
+    height: 23.2vw;
+
+}
+
+.handcoctail {
+    transform: scale(1.2);
+    width: 28.9vw;
+    height: 36.1vw;
+    margin: -3vw 0 0 -5vw;
+    animation-duration: 5s;
+    animation-name: handcoctail;
+    animation-iteration-count:infinite;
+}
+
+
+.data {
+    border: 1.75vw solid #EA2616;
+    border-top: none;
+    border-left: none;
+    height: 4.78vw;
+    padding:1.9vw 0  0;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 2.9vw;
+    text-align: center;
+ 
+}
+
+.secmainstroke { 
+    border: 1.75vw solid #EA2616;
+    overflow: hidden;
+    height: 5.7vw;
+    border-top: none;
+}
+
+.babysecmainstroke {
+    display: flex;
+    white-space: nowrap;
+    animation: runstroke 2s ease infinite;
+    width: 200%;
+}
+
+.container-second {
+    font-family: Impact;
+    color: #EA2616;
+    font-size:2.24vw;
+    border: 1.75vw solid #EA2616;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+    padding: 1.33vw;
+}
+
+.left-table-side {
+width: 42.98;
+}
+
+.cenrer-table-side {
+width: 27.9vw;
+}
+
+.right-table-side {
+width: 36vw;
+}
+
+.lf-fr-line{
+    border-bottom: 0.21vw solid #EA2616;
+    padding: 0.28vw;
+}
+
+.cet-fr-line {
+    border-bottom: 0.21vw solid #EA2616;
+    padding: 0.28vw;
+    text-align: right;
+}
+
+.rig-fr-line {
+    border-bottom: 0.21vw solid #EA2616;
+    padding: 0.28vw;
+    text-align: right;
+}
+
+.cet-lin-move {
+    text-align: center;
+}
+
+.container-third {
+    border: 1.75vw solid #EA2616;
+    border-top: none;
+    display: flex;
+    flex-direction: row;   
+}
+
+.treeman {
+width: 33.5vw;
+position: relative;
+animation: scaleman 2s linear infinite;
+z-index: 2;
+}
+
+.treeman:hover {
+animation: none
+}
+
+.imtrman{
+width: 35.7vw;
+height: 35.7vw;
+position: absolute;
+top: -15.3vw;
+
+}
+
+.strokes {
+width: 66.5vw;
+border-top: none;
+border-left: 1.75vw solid #EA2616;
+overflow: hidden;
+}
+
+.topstroke, 
+.centerstroke,
+.downstroke
+ { width: 100%;
+    display: flex;
+    white-space: nowrap;
+    animation: runstroke 2s ease infinite;
+    width: 200%;
+   
+}
+
+.centerstroke {
+    animation-name: runstrokereverse ;
+}
+
+
+.container-fourth {
+border:1.75vw solid #EA2616 ;
+border-top: none;
+display: flex;
+flex-direction: row;
+}
+
+.left-side-fourth {
+display: flex;
+flex-direction: row;
+border: none;
+}
+
+.bottles {
+    border: none;
+    border-right:1.75vw solid #EA2616 ;
+    overflow: hidden;
+   
+}
+
+.bottlesimg {
+width: 50.19vw;
+animation:bottle 1s linear infinite;
+overflow: hidden;
+}
+
+
+
+.mouth {
+position: relative;
+width: 20.93vw;
+
+}
+
+.mouthimg {
+position: absolute;
+width: 20.93vw;
+animation: mouth 2s ease infinite;
+animation-play-state: paused;
+z-index: 2;
+}
+
+.mouthimg:hover{
+animation-play-state: running;
+}
+
+.right-side-fourth {
+    border: none;
+    border-left:1.75vw solid #EA2616 ;
+    position: relative;
+    width: 24.5vw;
+}
+
+.dancemanimg {
+    position: absolute;
+    width: 20.93vw;
+    z-index: 2;
+    top: -18vw;
+    animation:danceman 2s linear infinite;
+}
+
+
+.strokes2 {
+    border:1.75vw solid #EA2616 ;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+ 
+    
+}
+
+.st2first {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    animation: runstrokereverse 2s ease infinite;
+  
+
+}
+
+.st2second {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    animation: runstroke 2s ease infinite;
+}
+
+.st2third {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    animation: runstrokereverse 2s ease infinite;
+}
+
+.container-fivth {
+    border:1.75vw solid #EA2616 ;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.leftpl,
+.ritpl {
+border-radius: 50%;
+
+}
+
+.plastic {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+}
+
+.leftpl,
+.ritpl {
+width: 42.63vw;
+border-radius: 50%;
+}
+
+.lp,
+.rp {
+    width: 42.63vw;
+
+}
+
+.hands {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.lefthd,
+.righthd
+{ width: 45.1vw;
+ border-radius: 50%;
+ position: relative;
+}
+
+.lh:hover {
+    animation-play-state:running;
+    }
+
+.rh:hover {
+        animation-play-state:running;
+        } 
+
+.lh,
+.rh {
+    width: 45.1vw;
+    position: absolute;
+    top: -31vw;
+    z-index: 2;
+    animation: lefthand 1s linear infinite;
+    animation-play-state: paused;
+}
+
+.rh{
+    top:-24vw ;
+    animation: lefthand 1s linear reverse infinite;
+    animation-play-state: paused;
+}
+
+.lastlf,
+.lastrg {
+color: #332D2D;
+position: absolute;
+top: -25vw;
+left: 2.4vw;
+animation: disco1 3s linear infinite;
+
+}
+
+.lastrg {
+animation: disco2 3s linear infinite;
+}
+
+.back { 
+position: relative;
+top: -44vw;
+}
+
+.bcimg {
+width: 95vw;
+z-index: -1;
+position: absolute;
+}
+
+footer {
+    border:1.75vw solid #EA2616 ;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 2vw;
+   
+}
+
+.footerwords {
+font-size: 2.52vw;
+font-family: 'PressStart2P';
+color: #EA2616;
+display: flex;
+flex-direction: column;
+text-transform:uppercase;
+}

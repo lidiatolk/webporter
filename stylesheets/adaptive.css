@@ -1,0 +1,151 @@
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { 
+    body { min-width: 320px; } 
+    .container-first { 
+    flex-direction: column;
+    width: 100%;
+    }
+    
+    .left-side-fr {
+        width: 100%;
+    }
+
+    .mainpic {
+     background-size: 100%;
+        text-align: center;
+    }
+
+    .right-side-fr { 
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .discoballs { 
+    overflow: visible;
+    /* height: 21.2vw; */
+    width: 151vw;
+    border-top: none;
+    }
+
+    .coctail {
+        width: 29vw;
+        height: 21.2vw;
+     }
+
+    .data {
+        height: 19.3vw;
+        position: relative;
+        width: 28vw;
+    }
+
+    h3 { 
+        position: absolute;
+        top: 9vw;
+        transform: rotate(270deg);
+        left: -6vw;
+       font-size: 2.8vw;
+
+  
+    }
+
+    .disco1 {
+        width: 22.65vw;
+     height: 22.65vw;
+     top: -0.8vw;
+     left: -6vw;
+    }
+
+    .disco2 {
+        top: 2.2vw;
+        left: 42vw;
+        width: 19.22vw;
+        height: 19.22vw;
+    }
+
+    .disco3 {
+        top: 10.2vw;
+        left: 19.5vw;
+        width: 13.16vw;
+        height: 13.16vw;
+    }
+   
+    .disco4 {
+        top: 1.2vw;
+        left: 29vw 
+    }
+
+    .container-second{
+    font-size: 6.24vw;
+    }
+
+    .left-table-side {
+    width: 100%;
+    }
+
+    .cenrer-table-side {
+    display: none;
+    }
+
+    .right-table-side {
+    display: none;
+    }
+
+    .container-third {
+     flex-direction: column;
+     overflow: hidden;
+    }
+
+    .treeman {
+        top: 0;
+        height: 46.5vw;
+        width: 100%;
+    }
+
+    .imtrman {
+        scale: 2.3;
+        top: -12.25vw;
+        left: 19vw;
+    }
+
+    .strokes {
+    border-left: none;
+    border-top: 1.75vw solid #EA2616;
+    width: 100%;
+    }
+
+    .left-side-fourth {
+    flex-direction: column;
+    width: 57vw;
+    
+    }
+
+    .bottles {
+    border-right: none;
+    border-bottom:1.75vw solid #EA2616; ;
+    }
+
+    .bottlesimg {
+        width: 58.19vw
+    }
+
+    .mouth {
+    width: 100%;
+    left: 19vw;
+    height: 23vw;
+    z-index: 2;
+   
+    }
+    .mouthimg {
+        position: unset;
+       
+    }
+
+    .dancemanimg {
+        width: 34.93vw;
+        top: -16vw;
+    
+    }
+    
+    .bcimg {
+    width: 97vw;
+    }
+}
