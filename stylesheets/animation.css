@@ -68,14 +68,15 @@
 
 @keyframes scaleman {
     from {transform-origin: bottom left;
-         transform: scale(0.8);
+         transform: scale(0.85);
      }
     50% {transform-origin: bottom left;
          transform: scale(1.2);
     
     } 
     to {transform-origin: bottom left;
-        transform: scale(0.8);}
+        transform: scale(0.85);
+    }
 }
 
 @keyframes bottle{
