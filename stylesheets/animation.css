@@ -70,10 +70,12 @@
     from {transform-origin: bottom left;
          transform: scale(0.8);
      }
-    to {transform-origin: bottom left;
+    50% {transform-origin: bottom left;
          transform: scale(1.2);
     
     } 
+    to {transform-origin: bottom left;
+        transform: scale(0.8);}
 }
 
 @keyframes bottle{
